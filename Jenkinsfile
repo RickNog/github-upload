@@ -3,7 +3,9 @@ pipeline {
   stages {
     stage('echo') {
       steps {
+      printmessage
         echo 'goodbye'
+        master
       }
     }
 
