@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('echo') {
             steps {
-                echo 'coming at you last time from trigger'
+                echo 'hello from trigger'
             }
         }
     }
